@@ -1,0 +1,15 @@
+{application, websocket,
+ [
+  {description, ""},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  ssl,
+                  cowboy
+                 ]},
+  {mod, { websocket_app, []}},  
+  {env, [
+  ]}
+ ]}.
