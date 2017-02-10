@@ -4,6 +4,9 @@
 # Install erlang
 brew install erlang
 
+# Install deps
+make
+
 # Start the server
 make run
 
